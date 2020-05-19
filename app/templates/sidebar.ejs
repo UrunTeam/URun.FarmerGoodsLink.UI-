@@ -1,22 +1,39 @@
-<div class="sidebar" id="js_sidebar" v-cloak>
-  <el-radio-group class="side-flag" v-model="isCollapse" style="margin-bottom: 20px;">
-    <el-radio-button v-show="isCollapse" :label="false"><img src="../images/open_icon.png" alt=""></el-radio-button>
-    <el-radio-button v-show="!isCollapse" :label="true"><img src="../images/fold_icon.png" alt=""></el-radio-button>
-  </el-radio-group>
-  <div class="logo"><img src="../images/logo_pic.png" :style="imgWidth" alt=""></div>
-  <el-menu default-active="1-1" class="el-menu-vertical-demo" @open="handleOpen" @close="handleClose" :collapse="isCollapse">
-    <el-submenu index="1">
-      <template slot="title">
-        <i class="el-icon-location"></i>
-        <span slot="title">客户信息管理</span>
-      </template>
-      <el-menu-item-group>
-        <el-menu-item index="1-1">单位信息</el-menu-item>
-      </el-menu-item-group>
-    </el-submenu>
-    <el-menu-item index="4">
-      <i class="el-icon-setting"></i>
-      <span slot="title">客户信息管理</span>
-    </el-menu-item>
-  </el-menu>
+<div class="leftNav">
+  <div class="leftLogo">
+    <a href="#">
+      <img src="../images/yun-logo.png">
+    </a>
+  </div>
+  <ul class="navUl">
+    <li class="<%= local.account?'active':''%>">
+      <a href="#">
+        <p class="imgP nav-home"></p>
+        <p>首页</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <p class="imgP nav-block"></p>
+        <p>区块链溯源</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <p class="imgP nav-news"></p>
+        <p>新闻官</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <p class="imgP nav-goods"></p>
+        <p>货品管理</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <p class="imgP nav-setting"></p>
+        <p>系统设置</p>
+      </a>
+    </li>
+  </ul>
 </div>

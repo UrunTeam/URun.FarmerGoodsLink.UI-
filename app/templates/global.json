@@ -2,10 +2,13 @@
     "site": "",
     "styles": [
         "../css/custom-bootstrap.css",
+        "../libs/datetimepicker/jquery.datetimepicker.min.css",
         "../css/global.css"
     ],
     "scripts": [
         "../libs/jquery/jquery.min.js",
+        "../libs/jquery.paging/jquery.paging.js",
+        "../libs/datetimepicker/jquery.datetimepicker.full.min.js",
         "../js/resize.js",
         "../libs/bootstrap/dist/bootstrap.min.js",
         "../js/global.js"
