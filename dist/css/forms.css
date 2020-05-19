@@ -1,0 +1,158 @@
+.body-box {
+  padding-bottom: 130px !important;
+  overflow-y: auto;
+}
+.toolbar {
+  border-bottom: 1px solid #EBEEF2;
+}
+.forms-box {
+  padding: 20px 24px;
+  background: #ffffff;
+}
+.forms-box .item {
+  display: inline-block;
+  width: 372px;
+  margin-right: 156px;
+  margin-bottom: 24px;
+  vertical-align: text-top;
+}
+.forms-box .item .item-label {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: #9AA2B5;
+}
+.forms-box .item .item-label em {
+  margin-left: -10px;
+  margin-right: 5px;
+}
+.forms-box .item .el-select {
+  display: block;
+}
+.forms-box .item .money-text {
+  line-height: 40px;
+  margin-right: 14px;
+  color: #4E5666;
+}
+.forms-box .item .el-date-editor {
+  display: block;
+  width: 100%;
+}
+.forms-box .item.remark {
+  width: 900px;
+}
+.forms-box .el-form-item__label {
+  font-weight: normal;
+  color: #9AA2B5;
+}
+.forms-box .el-textarea__inner {
+  height: 288px;
+}
+.forms-box .publish-box {
+  padding: 20px 0;
+}
+.forms-box .publish-box .el-checkbox {
+  display: block;
+  margin-bottom: 20px;
+}
+.forms-box .sub-txt {
+  color: #9AA2B5;
+}
+.forms-box .input-btn .el-button {
+  margin-left: 12px;
+}
+.form-list {
+  padding: 24px;
+  background: #ffffff;
+}
+.form-list dl {
+  display: inline-block;
+  vertical-align: top;
+  width: 340px;
+  margin-right: 143px;
+}
+.form-list dl.dl-row {
+  display: block;
+}
+.form-list dl dt,
+.form-list dl dd {
+  display: inline-block;
+  vertical-align: middle;
+}
+.form-list dl dt .send-msg,
+.form-list dl dd .send-msg {
+  margin-left: 24px;
+  color: #4C84FF;
+}
+.form-list dl dt .send-msg i,
+.form-list dl dd .send-msg i {
+  margin-right: 5px;
+}
+.form-list dl dt {
+  font-weight: normal;
+  color: #9AA2B5;
+}
+.form-list dl dd .el-tag {
+  margin-right: 5px;
+}
+.form-list dl dd .el-tag.el-tag--info {
+  background-color: #DEE7EF;
+  border-color: #DEE7EF;
+  color: #4E5666;
+}
+.form-list .setting {
+  text-align: center;
+  padding: 20px;
+}
+.form-list .setting .el-button--default {
+  color: #4C84FF;
+  border-color: #4C84FF;
+}
+.form-list .top .el-button {
+  float: right;
+  margin-left: 14px;
+}
+.form-list .form-list-top-left {
+  display: inline-block;
+}
+.form-list .form-list-top-left img,
+.form-list .form-list-top-left span,
+.form-list .form-list-top-left a {
+  display: inline-block;
+  vertical-align: middle;
+}
+.form-list .form-list-top-left img {
+  width: 58px;
+  margin: 14px 14px 28px 0;
+}
+.form-list .form-list-top-left span {
+  font-family: Source Han Sans CN;
+  font-weight: bold;
+  font-size: 24px;
+}
+.form-list .form-list-top-left a {
+  color: #4C84FF;
+  margin-left: 14px;
+}
+.submit-box {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  right: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 86px;
+  padding: 0 30px;
+  background: #ffffff;
+  box-shadow: 0px -5px 17px rgba(154, 162, 181, 0.5);
+  border-radius: 5px;
+  z-index: 99;
+}
+
+/*# sourceMappingURL=forms.css.map */

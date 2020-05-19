@@ -1,0 +1,13 @@
+{
+    "site": "",
+    "styles": [
+        "../css/custom-bootstrap.css",
+        "../css/global.css"
+    ],
+    "scripts": [
+        "../libs/jquery/jquery.min.js",
+        "../js/resize.js",
+        "../libs/bootstrap/dist/bootstrap.min.js",
+        "../js/global.js"
+    ]
+}
