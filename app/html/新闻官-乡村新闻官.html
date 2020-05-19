@@ -1,0 +1,135 @@
+<%- include('../templates/head') %>
+<style>
+  .titWrap {
+    background-color: #ffffff;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .24rem;
+    margin-bottom: .24rem;
+  }
+</style>
+
+<body>
+  <div class="contain">
+    <%- include('../templates/sidebar') %>
+    <div class="rightCon">
+      <div class="topNav">
+        <div class="tn-left">
+          <a href="#" class="logo-ribao">
+            <img src="../images/logo-ribao.png" alt="">
+          </a>
+          <a href="#" class="logo-ribao">
+            <img src="../images/logo-title.png" alt="">
+          </a>
+        </div>
+        <div class="tn-right">
+          <a href="#" class="notice">
+            <img src="../images/ic-set.png" alt="">
+            <span class="ic-round"></span>
+          </a>
+          <span class="gray-su"></span>
+          <div class="selectBox">
+            <span class="ic-select"></span>
+            <p class="nameP">John罗</p>
+          </div>
+          <div class="headerBox">
+            <a href="#" class="header-pic">
+              <img src="../images/header-pic.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="bottomMain">
+        <!-- 标题 -->
+        <div class="titWrap">
+          <p class="signTit" style="margin-bottom: 0;">
+            农产品录入
+          </p>
+          <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">返回上层</button>
+        </div>
+
+        <!-- 栅格布局 -->
+        <div class="flex">
+          <div class="wrap-left">
+            <div class="flex flex-2" style="width: 100%;">
+              <div class="flex-item">
+                <div class="head">
+                  <h4 class="title">新闻官个人信息</h4>
+                </div>
+                <div class="body">
+
+                </div>
+              </div>
+              <div class="flex-item">
+                <div class="head">
+                  <h4 class="title">营业额</h4>
+                </div>
+                <div class="body">
+                  
+                </div>
+              </div>
+            </div>
+            <div class="flex">
+              <div class="flex-item" style="width:100%">
+                <div class="head">
+                  <h4 class="title">整体信用</h4>
+                </div>
+                <div class="body">
+                  
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-2" style="width: 100%;">
+              <div class="flex-item">
+                <div class="head">
+                  <h4 class="title">当天视频实况</h4>
+                </div>
+                <div class="body">
+                  
+                </div>
+              </div>
+              <div class="flex-item">
+                <div class="head">
+                  <h4 class="title">实时信息</h4>
+                </div>
+                <div class="body">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrap-right">
+            <div class="flex-item">
+              <div class="head">
+                <h4 class="title">货品销售排行榜</h4>
+              </div>
+              <div class="body">
+                
+              </div>
+            </div>
+            <div class="flex-item">
+              <div class="head">
+                <h4 class="title">新闻官排行榜</h4>
+              </div>
+              <div class="body">
+                
+              </div>
+            </div>
+            <div class="flex-item">
+              <div class="head">
+                <h4 class="title">区块链记者排行榜</h4>
+              </div>
+              <div class="body">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%- include('../templates/foot') %>
+</body>
+
+</html>

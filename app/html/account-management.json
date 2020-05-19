@@ -1,0 +1,8 @@
+{
+  "title": "用户管理",
+  "account":true,
+  "styles": [
+    "../css/produce.css"
+  ],
+  "scripts":[]
+}

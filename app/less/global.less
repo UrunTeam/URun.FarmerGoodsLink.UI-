@@ -5,9 +5,222 @@
 @primary-color: #4C84FF;
 @warn-color: #FE8358;
 @infos-color:#7877D4;
+@theme-color: #77a726;
 
+//主题色
+.theme-color {
+  color: #77a726;
+}
 
+.warn-text {
+  color: #fe8358;
+}
 
+//按钮
+.btn-primary {
+  background: #77a726;
+  color: #fff;
+  font-weight: normal;
+  text-shadow: none;
+  border-color: #77a726;
+  &:hover, &:focus {
+    background: #77a726;
+    color: #fff;
+    font-weight: normal;
+    text-shadow: none;
+    border-color: #77a726;
+  }
+}
+.btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus {
+    background: #77a726;
+    color: #fff;
+    font-weight: normal;
+    text-shadow: none;
+    border-color: #77a726;
+}
+.btn-default {
+  background: #ffffff;
+  border-color: #dee7ef;
+  font-weight: normal;
+  text-shadow: none;
+  color: #4e5666;
+  &:hover, &:focus {
+    background: #ffffff;
+    color: #4e5666;
+    font-weight: normal;
+    text-shadow: none;
+    border-color: #dee7ef;
+  }
+}
+.btn-default:active:hover, .btn-default.active:hover, .open > .dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus {
+  background: #ffffff;
+  color: #4e5666;
+  font-weight: normal;
+  text-shadow: none;
+  border-color: #dee7ef;
+}
 
+//分页
+.paging {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 .24rem;
 
+  li {
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+    .btn-dogo {
+      display: inline-block;
+    }
+    &.ui-pager {
+      min-width: .3rem;
+      min-height: .3rem;
+      box-sizing: border-box;
+      background-color: #fff;
+      margin: 0 .05rem;
+      border: 1px solid #dee7ef;
+      text-align: center;
+      line-height: .3rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    &.focus {
+      border-color: #4c84ff;
+      color: #4c84ff;
+    }
+    .inp-gofast {
+      width: .94rem;
+      height: .3rem;
+      text-align: center;
+      margin: 0 .1rem;
+      padding-top: .04rem;
+      padding-bottom: .04rem;
+      box-sizing: border-box;
+    }
+  }
+}
 
+// 模态框垂直居中
+.modal {
+  display: table;
+  width: 440px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.modal-dialog {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.modal-header {
+  padding-bottom: .12rem;
+  padding-top: .12rem;
+  background-color: #f0f4f9;
+}
+.modal-title {
+  font-size: .14rem;
+}
+.modal-content {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.modal-footer {
+  padding-bottom: .12rem;
+  padding-top: .12rem;
+}
+
+//弹窗内样式处理
+.modal-body {
+  color: #9aa2b5;
+  .personUl {
+    li {
+      .input--wrap {
+        position: relative;
+        display: inline-block;
+        width: 2.94rem;
+        .check-list {
+          display: inline-block;
+          margin-bottom: .1rem;
+          margin-right: .2rem;
+        }
+      }
+      .show-limit {
+        position: absolute;
+        right: .08rem;
+        bottom: .04rem;
+        background-color: #fff;
+      }
+      .sLab {
+        padding-top: 0;
+      }
+      .int {
+        width: 2.94rem;
+        height: .3rem;
+        color: #4e5666;
+      }
+      .time-range {
+        position: relative;
+        height: .3rem;
+        border: 1px solid #dee7ef;
+        border-radius: 4px;
+        vertical-align: middle;
+        .iconfont {
+          position: absolute;
+          right: .07rem;
+          top: .03rem;
+        }
+        input {
+          width: 1rem;
+          border: none;
+          height: 100%;
+          padding-left: .12rem;
+        }
+      }
+      
+    }
+  }
+
+  textarea {
+    width: 2.94rem;
+    min-height: .8rem;
+    border: 1px solid #dee7ef;
+    border-radius: 4px;
+    vertical-align: top;
+    padding: 0 .12rem;
+    line-height: .3rem;
+    color: #4e5666;
+  }
+  input::placeholder, textarea::placeholder {
+    color: #9aa2b5;
+  }
+}
+
+//input选择
+.check-radio {
+  display: inline-block;
+  vertical-align: middle;
+  width: .18rem;
+  height: .18rem;
+  border-radius: 50%;
+  border:1px solid #c3c5c6;
+  margin-right: .08rem;
+  cursor: pointer;
+  &.check {
+    position: relative;
+    &::before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: .08rem;
+      height: .08rem;
+      background-color: @theme-color;
+      border-radius: 50%;
+      content: "";
+    }
+  }
+}
