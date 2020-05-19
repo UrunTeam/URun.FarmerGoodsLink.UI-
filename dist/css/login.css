@@ -1,0 +1,115 @@
+@charset "utf-8";
+/*
+  请在此文件编写你所需要用到的样式，尽量用elementUi的组件，编写过程中需要注意添加适当的注释以便后期维护修改，编写过程
+  中，请严格执行，不要更改其他文件的样式，为了避免冲突，如需修改，请联系我修改公用样式
+  注意：编写类名如果过长可使用 “-”分割，尽量避免用id控制样式，尽量使用less的嵌套写法
+
+  编写格式如下：
+  //模块功能名
+  .class-name {
+    your style!
+    -----
+
+    .sub-class-name {
+      your style!
+      -----
+    }
+  }
+*/
+.login {
+  margin: 0 auto;
+  width: 456px;
+  height: 450px;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 10px 0px rgba(76, 132, 255, 0.2);
+  border-radius: 10px;
+  position: relative;
+}
+.login-img {
+  margin-top: 74px;
+  width: 184px;
+  height: 52px;
+}
+.login-img img {
+  position: absolute;
+  top: 74px;
+  left: 136px;
+}
+.login-user {
+  margin-top: 130px;
+  margin-left: 68px;
+  position: relative;
+}
+.login-pass {
+  margin-left: 68px;
+  margin-top: 28px;
+  position: relative;
+}
+.login-user input,
+.login-pass input {
+  width: 320px;
+  height: 48px;
+  background-color: #f0f4f9;
+  border-radius: 4px;
+  border: solid 1px #dee7ef;
+}
+.login-user input::-webkit-input-placeholder,
+.login-pass input::-webkit-input-placeholder {
+  font-family: Source Han Sans CN;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #9aa2b5;
+  position: relative;
+  left: 48px;
+}
+.login-user img,
+.login-pass img {
+  position: absolute;
+  top: 15px;
+  left: 13px;
+}
+.login-login {
+  margin-top: 51px;
+  margin-left: 68px;
+}
+.login-btn {
+  width: 320px;
+  height: 48px;
+  background-color: #77a726;
+  border-radius: 4px;
+  font-family: Source Han Sans CN;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 31px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.login-test {
+  margin-left: 200px;
+  margin-top: 20px;
+  font-family: Source Han Sans CN;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #4e5666;
+}
+.login-compute {
+  font-family: Source Han Sans CN;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #9aa2b5;
+  position: absolute;
+  bottom: 20px;
+  left: 114px;
+}
+
+/*# sourceMappingURL=login.css.map */

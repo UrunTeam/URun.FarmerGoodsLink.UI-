@@ -1,0 +1,8 @@
+{
+  "title": "农产品-展示",
+  "qj":true,
+  "styles": [
+    "../css/produce.css"
+  ],
+  "scripts":[]
+}

@@ -1,0 +1,151 @@
+<%- include('../templates/head') %>
+<body>
+  <div class="contain">
+    <div class="leftNav">
+      <div class="leftLogo">
+        <a href="#">
+          <img src="../images/yun-logo.png" >
+        </a>
+      </div>
+      <ul class="navUl">
+        <li class="active">
+          <a href="#">
+            <p class="imgP nav-home"></p>
+            <p>首页</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <p class="imgP nav-block"></p>
+            <p>区块链溯源</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <p class="imgP nav-news"></p>
+            <p>新闻官</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <p class="imgP nav-goods"></p>
+            <p>货品管理</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <p class="imgP nav-setting"></p>
+            <p>系统设置</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="rightCon">
+      <div class="topNav">
+        <div class="tn-left">
+          <a href="#" class="logo-ribao">
+            <img src="../images/logo-ribao.png" alt="">
+          </a>
+          <a href="#" class="logo-ribao">
+            <img src="../images/logo-title.png" alt="">
+          </a>
+        </div>
+        <div class="tn-right">
+          <a href="#" class="notice">
+            <img src="../images/ic-set.png" alt="">
+            <span class="ic-round"></span>
+          </a>
+          <span class="gray-su"></span>
+          <div class="selectBox">
+            <span class="ic-select"></span>
+            <p class="nameP">John罗</p>
+          </div>
+          <div class="headerBox">
+            <a href="#" class="header-pic">
+              <img src="../images/header-pic.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="bottomMain">
+        <div class="mainCon foundCon">
+          <div class="titWrap">
+            <p class="signTit">
+               新闻官
+            </p>
+          </div>
+          <div class="personalMes">
+            <p>个人信息</p>
+            <div class="personalCon">
+              <ul class="personUl">
+                <li>
+                  <span class="sLab"></span>
+                  <div class="uploadPicWrap">
+                    <div class="uploadPic">
+                      <input class="file" type="file">
+                      <span class="picFile" href="#"><i class="ic-upload"></i>上传头像</span>
+                    </div>
+                    <!-- 上传后放图片的div开始 -->
+                    <div class="headPicBox">
+                      <img src="../images/hj.png" alt="">
+                    </div>
+                    <!-- 上传后放图片的div结束 -->
+                  </div>
+                  
+                </li>
+                <li>
+                  <span class="sLab">新闻官姓名:</span>
+                  <input class="int" type="text"  placeholder="请输入~">
+                </li>
+                <li>
+                  <span class="sLab">所属村委:</span>
+                  <input class="int" type="text"  placeholder="请输入~">
+                </li>
+                <li>
+                  <span class="sLab">授权记者:</span>
+                  <input class="int" type="text"  placeholder="请输入~">
+                </li>
+                <li>
+                  <span class="sLab">上传视频:</span>
+                  <div class="videoBox">
+                    <div class="uploadWrap">
+                      <div class="uploadBtn">
+                        <input class="file" type="file">
+                        <span class="greenFile" href="#"><i class="ic-upload"></i>上传视频</span>
+                      </div>
+                      <span class="grayFont">支持格式：MP4、AVI、WMV、MPG...</span>
+                    </div>
+                    <div class="oneVideo">
+                      <img src="../images/videoPic.png" alt="">
+                      <a href="#" class="ic-bofang2"></a>
+                      <a href="#" class="ic-close"></a>
+                    </div>
+                  </div>          
+                </li>
+                <li>
+                  <span class="sLab">上传图片:</span>
+                  <div class="videoBox">
+                    <div class="uploadWrap">
+                      <div class="uploadBtn">
+                        <input class="file" type="file">
+                        <span class="greenFile" href="#"><i class="ic-upload"></i>上传图片</span>
+                      </div>
+                      <span class="grayFont">支持格式：jpg、png、gif、jpeg...</span>
+                    </div>
+                  </div>          
+                </li>           
+              </ul>
+            </div>
+          </div>
+          <div class="btnBox">
+            <a href="#" class="aBtn sure">确定</a>
+            <a href="#" class="aBtn">取消</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <%- include('../templates/foot') %>
+</body>
+
+</html>

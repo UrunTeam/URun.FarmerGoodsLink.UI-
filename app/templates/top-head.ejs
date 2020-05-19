@@ -1,0 +1,19 @@
+<div class="top-head" id="js_top_head" v-cloak>
+  <el-breadcrumb separator="/">
+    <el-breadcrumb-item>工单信息</el-breadcrumb-item>
+    <el-breadcrumb-item>创建单位信息</el-breadcrumb-item>
+  </el-breadcrumb>
+  <el-dropdown trigger="click">
+    <span class="el-dropdown-link">
+      <el-avatar shape="square" size="small" :src="squareUrl" class="avator"></el-avatar>Megatron <i
+        class="el-icon-caret-bottom el-icon-more"></i>
+    </span>
+    <el-dropdown-menu slot="dropdown">
+      <el-dropdown-item class="clearfix">
+        通知
+        <el-badge class="mark" :value="12" />
+      </el-dropdown-item>
+      <el-dropdown-item icon="el-icon-circle-plus-outline">退出</el-dropdown-item>
+    </el-dropdown-menu>
+  </el-dropdown>
+</div>

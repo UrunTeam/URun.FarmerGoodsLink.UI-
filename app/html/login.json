@@ -1,0 +1,8 @@
+{
+  "title": "登录页",
+  "qj":true,
+  "styles": [
+    "../css/login.css"
+  ],
+  "scripts":[]
+}
