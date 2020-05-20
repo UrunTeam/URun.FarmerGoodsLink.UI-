@@ -911,45 +911,56 @@
 }
 .body-above{
     display: flex;
-    margin-top: 28px;
+    margin-top: 0.25rem;
+    .above-img{
+        width: 0.93rem;
+        height: 0.9rem;
+        background-image: linear-gradient(90deg, 
+            );
+        border-radius: 0.05rem;
+        .img{
+            width: 100%;
+            height: 100%;
+        }
+    }
     .above-intr{
-        margin-left: 37px;
+        margin-left: 0.37rem;
         .intr-name{
             font-family: Source Han Sans CN;
-            font-size: 20px;
+            font-size: 0.2rem;
             font-weight: normal;
             font-stretch: normal;
-            line-height: 23px;
-            letter-spacing: 0px;
+            line-height: 0.23rem;
+            
             color: #4d4f5c;
         }
         .intr-posi{
-            margin-top: 12px;
+            margin-top: 0.12rem;
             font-family: PingFang SC;
-            font-size: 16px;
+            font-size: 0.16rem;
             font-weight: normal;
             font-stretch: normal;
-            line-height: 23px;
+            line-height: 0.23rem;
             letter-spacing: 0px;
             color: #5a8413;
         }
         .intr-acc{
-            margin-top: 12px;
+            margin-top: 0.12rem;
             font-family: Source Han Sans CN;
-            font-size: 16px;
+            font-size: 0.16rem;
             font-weight: normal;
             font-stretch: normal;
-            line-height: 23px;
+            line-height: 0.23rem;
             letter-spacing: 0px;
             color: #a4afb7;
         }
     }
 }
 .body-below {
-    margin-top: 30px;
-    width: 470px;
+    margin-top: 0.3rem;
+    width: 4.7rem;
 	font-family: Source Han Sans CN;
-	font-size: 16px;
+	font-size: 0.16rem;
 	font-weight: normal;
 	font-stretch: normal;
 	// line-height: 23px;
@@ -959,23 +970,37 @@
 .video{
     display: flex;
     justify-content: space-between;
-    margin-top: 32px;
+    margin-top: 0.32rem;
     .video-bc{
+        .video-img {
+            width: 2.92rem;
+            height: 1.94rem;
+            .ding{
+                width: 100%;
+                height: 100%;
+            }
+        }
         .video-size{
             font-family: Source Han Sans CN;
-            font-size: 18px;
+            font-size: 0.18rem;
             font-weight: normal;
             font-stretch: normal;
-            line-height: 23px;
+            line-height: 0.23rem;
             letter-spacing: 0px;
             color: #4d4f5c;
             text-align: center;
-            margin-top: 15px;
+            margin-top: 0.15rem;
         }
         .video-play{
+            width: 0.56rem;
+            height: 0.56rem;
             position: absolute;
             top: 30%;
             left: 40%;
+            img{
+                width: 100%;
+                height: 100%;
+            }
         }
     }
     
@@ -984,33 +1009,33 @@
     position: relative;
 }
 .time-into{
-    margin-top: 19px;
+    margin-top: 0.19rem;
     
     .time-title{
-        width: 482px;
+        width: 4.82rem;
         font-family: Source Han Sans CN;
-        font-size: 18px;
+        font-size: 0.18rem;
         font-weight: normal;
         font-stretch: normal;
-        line-height: 23px;
+        line-height: 0.23rem;
         letter-spacing: 0px;
         color: #4d4f5c;
     }
     .time-updata{
         font-family: Source Han Sans CN;
-        font-size: 18px;
+        font-size: 0.18rem;
         font-weight: normal;
         font-stretch: normal;
-        line-height: 23px;
+        line-height: 0.23rem;
         letter-spacing: 0px;
         color: #a4afb7;
         text-align: right;
-        margin-right: 32px;
-        margin-top: 2px;
+        margin-right: 0.32rem;
+        margin-top: 0.02rem;
     }
 }
 .information>div:nth-child(1){
-    height: 77px;
+    height: 0.77rem;
     
     border-bottom: solid 1px rgba(108,132,156, 0.25);
 }
@@ -1018,59 +1043,89 @@
 .information>div:nth-child(2){
     
     border-bottom: solid 1px rgba(108,132,156, 0.25);
-    height: 57px;
-}
-.border {
-	width: 489px;
-	height: 0px;
-	border: solid 1px #6c849c;
-    opacity: 0.25;
-    // margin-top: 2px;
+    height: 0.57rem;
 }
 .ranking>div:nth-child(1),.reporter>div:nth-child(1){
-    margin-top: 17px;
+    margin-top: 0.17rem;
 }
 .ranking>div,.reporter>div{
-    margin-top: 11px;
+    margin-top: 0.11rem;
 }
 
 .ranking_one,.reporter_one{
     display: flex;
-    
+    .one_logo {
+        width: 0.22rem;
+        height: 0.33rem;
+        background-image: linear-gradient(90deg, 
+            );
+            img{
+                width: 100%;
+                height: 100%;
+            }
+    }
     .one_img{
-        margin-left: 15px;
-    };
+        margin-left: 0.15rem;
+        width: 0.34rem;
+        height: 0.33rem;
+        background-image: linear-gradient(90deg, 
+            );
+        border-radius: 0.05rem;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        };
     .one_name {
-        margin-left: 8px;
-        margin-top: 5px;
+        margin-left: 0.08rem;
+        margin-top: 0.05rem;
         font-family: Source Han Sans CN;
-        font-size: 20px;
+        font-size: 0.2rem;
         font-weight: normal;
         font-stretch: normal;
-        line-height: 23px;
+        line-height: 0.23rem;
         letter-spacing: 0px;
         color: #4d4f5c;
     };
     .one_info {
-        margin-left: 37px;
-        margin-top: 5px;
+        margin-left: 0.37rem;
+        margin-top: 0.05rem;
         font-family: PingFang SC;
-        font-size: 16px;
+        font-size: 0.16rem;
         font-weight: normal;
         font-stretch: normal;
-        line-height: 23px;
+        line-height: 0.23rem;
         letter-spacing: 0px;
         color: #5a8413;
     }
     .one_sales {
-        margin-left: 114px;
-        margin-top: 4px;
+        margin-left: 1.14rem;
+        margin-top: 0.04rem;
         font-family: PingFang SC;
-        font-size: 16px;
+        font-size: 0.16rem;
         font-weight: normal;
         font-stretch: normal;
-        line-height: 23px;
+        line-height: 0.23rem;
         letter-spacing: 0px;
         color: #ffc06a;
+    }
+}
+.ranking_one,.reporter_one{
+    .math{
+        margin-top: 0.05rem;
+        width: 0.22rem;
+        height: 0.22rem;
+        background-color: #77a726;
+        opacity: 0.39;
+        border-radius: 50%;
+        span{
+           
+            font-family: Source Han Sans CN;
+            font-size: 0.14rem;
+            font-weight: normal;
+            font-stretch: normal;
+            color: #ffffff;
+            margin-left: 0.06rem;
+        }
     }
 }
