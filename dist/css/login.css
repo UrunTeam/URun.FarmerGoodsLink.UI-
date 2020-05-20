@@ -18,7 +18,7 @@
 */
 .login-max {
   width: 1920px;
-  height: 780px;
+  height: 100%;
   background-image: url('../images/login/bg.png');
   position: relative;
 }
@@ -89,6 +89,8 @@
 .login-btn {
   width: 320px;
   height: 48px;
+  outline: none;
+  border: none;
   background-color: #77a726;
   border-radius: 4px;
   font-family: Source Han Sans CN;

@@ -873,8 +873,6 @@
   min-height: 318px;
   margin-bottom: .24rem;
   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.04);
-  padding-left: .28rem;
-  padding-right: .28rem;
   padding-top: .3rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -886,6 +884,8 @@
 }
 .flex-item .head {
   height: .3rem;
+  padding-left: .28rem;
+  padding-right: .28rem;
 }
 .flex-item .head .title {
   position: relative;
@@ -907,6 +907,8 @@
 }
 .flex-item .body {
   width: 100%;
+  padding-left: .28rem;
+  padding-right: .28rem;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;

@@ -1,8 +1,10 @@
 {
   "title": "新闻官-乡村新闻官",
-  "qj":true,
+  "account":true,
   "styles": [
     "../css/produce.css"
   ],
-  "scripts":[]
+  "scripts":[
+    "../libs/echarts/echarts.min.js"
+  ]
 }

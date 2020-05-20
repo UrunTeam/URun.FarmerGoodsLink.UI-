@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>农产品-展示 - </title>
+<title>农产品-农产品录入 - </title>
 <meta name="renderer" content="webkit">
 
 <link rel="stylesheet" href="../css/custom-bootstrap.css">
@@ -19,6 +19,16 @@
 <![endif]-->
 </head>
 
+<style>
+  .personUl li .sLab {
+    width: 1.25rem;
+  }
+  .personalCon {
+    min-height: auto;
+    background-color: rgba(230,230,251,.5);
+    margin-bottom: .24rem;
+  }
+</style>
 <body>
   <div class="contain">
     <div class="leftNav">
@@ -34,7 +44,7 @@
         <p>首页</p>
       </a>
     </li>
-    <li class="">
+    <li class="active">
       <a href="#">
         <p class="imgP nav-block"></p>
         <p>区块链溯源</p>
@@ -91,69 +101,57 @@
         <div class="mainCon foundCon">
           <div class="titWrap">
             <p class="signTit">
-               新闻官
+              农产品录入
             </p>
           </div>
           <div class="personalMes">
-            <p>个人信息</p>
+            <p>区块信息</p>
             <div class="personalCon">
               <ul class="personUl">
+                
                 <li>
-                  <span class="sLab"></span>
-                  <div class="uploadPicWrap">
-                    <div class="uploadPic">
-                      <input class="file" type="file">
-                      <span class="picFile" href="#"><i class="ic-upload"></i>上传头像</span>
-                    </div>
-                    <!-- 上传后放图片的div开始 -->
-                    <div class="headPicBox">
-                      <img src="../images/hj.png" alt="">
-                    </div>
-                    <!-- 上传后放图片的div结束 -->
-                  </div>
-                  
+                  <span class="sLab">区块哈希值:</span>
+                  <input class="int" type="text"  placeholder="请输入~" value="e5420e3115rty54f44519mh633e5420e3">
                 </li>
                 <li>
-                  <span class="sLab">新闻官姓名:</span>
-                  <input class="int" type="text"  placeholder="请输入~">
+                  <span class="sLab">前一区块哈希值:</span>
+                  <input class="int" type="text"  placeholder="请输入~" value="e5420e3115rty54f44519mh633e5420e3">
                 </li>
                 <li>
-                  <span class="sLab">所属村委:</span>
-                  <input class="int" type="text"  placeholder="请输入~">
+                  <span class="sLab">区块高度:</span>
+                  <input class="int" type="text"  placeholder="请输入~" value="12">
+                </li>
+              </ul>
+            </div>
+
+            <p>基础信息</p>
+            <div class="personalCon">
+              <ul class="personUl">
+                
+                <li>
+                  <span class="sLab">商品分类:</span>
+                  <input class="int" type="text"  placeholder="请输入~" value="蔬菜">
                 </li>
                 <li>
-                  <span class="sLab">授权记者:</span>
-                  <input class="int" type="text"  placeholder="请输入~">
+                  <span class="sLab">商品库存:</span>
+                  <input class="int" type="text"  placeholder="请输入~" value="50">
                 </li>
                 <li>
-                  <span class="sLab">上传视频:</span>
-                  <div class="videoBox">
-                    <div class="uploadWrap">
-                      <div class="uploadBtn">
-                        <input class="file" type="file">
-                        <span class="greenFile" href="#"><i class="ic-upload"></i>上传视频</span>
-                      </div>
-                      <span class="grayFont">支持格式：MP4、AVI、WMV、MPG...</span>
-                    </div>
-                    <div class="oneVideo">
-                      <img src="../images/videoPic.png" alt="">
-                      <a href="#" class="ic-bofang2"></a>
-                      <a href="#" class="ic-close"></a>
-                    </div>
-                  </div>          
+                  <span class="sLab">商品批次:</span>
+                  <input class="int" type="text"  placeholder="请输入~" value="1204441">
                 </li>
                 <li>
-                  <span class="sLab">上传图片:</span>
-                  <div class="videoBox">
-                    <div class="uploadWrap">
-                      <div class="uploadBtn">
-                        <input class="file" type="file">
-                        <span class="greenFile" href="#"><i class="ic-upload"></i>上传图片</span>
-                      </div>
-                      <span class="grayFont">支持格式：jpg、png、gif、jpeg...</span>
-                    </div>
-                  </div>          
-                </li>           
+                  <span class="sLab">商品产地:</span>
+                  <input class="int" type="text"  placeholder="请输入~" value="清远英德">
+                </li>
+                <li>
+                  <span class="sLab">销售渠道:</span>
+                  <input class="int" type="text"  placeholder="请输入~" value="年货节专供">
+                </li>
+                <li>
+                  <span class="sLab">新闻官:</span>
+                  <input class="int" type="text"  placeholder="请输入~" value="英德黎溪镇大埔村村长杨文斌">
+                </li>
               </ul>
             </div>
           </div>
