@@ -17,14 +17,13 @@
   }
 */
 .login-max {
-  width: 1920px;
   height: 100%;
   background-image: url('../images/login/bg.png');
   position: relative;
 }
 .login-box {
   width: 456px;
-  height: 600px;
+  min-height: 600px;
   background-color: #ffffff;
   box-shadow: 0px 3px 10px 0px rgba(76, 132, 255, 0.2);
   border-radius: 10px;
@@ -36,36 +35,52 @@
   width: 100%;
   height: 100%;
   position: relative;
+  padding-bottom: 18px;
+}
+.login-box .login-wrap {
+  display: none;
 }
 .login-img {
-  width: 184px;
-  height: 52px;
+  padding-top: .26rem;
+  padding-bottom: .48rem;
+  text-align: center;
 }
 .login-img img {
-  position: absolute;
-  top: 74px;
-  left: 136px;
+  display: inline-block;
 }
-.login-user {
-  margin-top: 130px;
-  margin-left: 68px;
+.re {
   position: relative;
+  text-align: center;
+  margin: 0 auto .22rem;
 }
-.login-pass {
-  margin-left: 68px;
-  margin-top: 28px;
+.re {
   position: relative;
-}
-.login-user input,
-.login-pass input {
   width: 320px;
   height: 48px;
   background-color: #f0f4f9;
   border-radius: 4px;
   border: solid 1px #dee7ef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 18px;
 }
-.login-user input::-webkit-input-placeholder,
-.login-pass input::-webkit-input-placeholder {
+.re input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.re img {
+  margin-right: 11px;
+}
+input::-webkit-input-placeholder,
+input::-webkit-input-placeholder {
   font-family: Source Han Sans CN;
   font-size: 14px;
   font-weight: normal;
@@ -74,13 +89,7 @@
   letter-spacing: 0px;
   color: #9aa2b5;
   position: relative;
-  left: 48px;
-}
-.login-user img,
-.login-pass img {
-  position: absolute;
-  top: 15px;
-  left: 13px;
+  text-align: left;
 }
 .login-login {
   margin-top: 51px;
@@ -102,7 +111,6 @@
   color: #ffffff;
 }
 .login-test {
-  margin-left: 200px;
   margin-top: 20px;
   font-family: Source Han Sans CN;
   font-size: 14px;
@@ -110,7 +118,10 @@
   font-stretch: normal;
   line-height: 24px;
   letter-spacing: 0px;
+  text-align: center;
   color: #4e5666;
+  margin-bottom: 40px;
+  cursor: pointer;
 }
 .login-compute {
   font-family: Source Han Sans CN;
@@ -121,13 +132,17 @@
   letter-spacing: 0px;
   color: #9aa2b5;
   position: absolute;
-  bottom: 200px;
-  left: 114px;
+  bottom: 18px;
+  text-align: center;
+  width: 100%;
 }
-.login-logo-img img {
+.login-logo-img {
   position: absolute;
-  right: 20px;
-  top: -172px;
+  right: 22px;
+  top: 10px;
+}
+.input-wrap:last-child {
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=login.css.map */

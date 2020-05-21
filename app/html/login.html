@@ -1,31 +1,76 @@
 <%- include('../templates/head') %>
+
 <body>
   <div class="login-max">
-      <div class="login-box">
-        <div class="login">
-          <div class="login-img">
-            <!-- 清远农货链 -->
-              <img src="../images/login/login_logo.png" alt="">
-          </div>
-          <div class="login">
-            <div class="login-user">
-                <img src="../images/login/login_user_logo.png" alt="">
-                <input class="user" type="text" placeholder="输入用户名">
+    <div class="login-box">
+      <div class="login" style="display: block;">
+        <div class="login-img">
+          <!-- 清远农货链 -->
+          <img src="../images/login/login_logo.png" alt="">
+        </div>
+        <div class="login login-wrap" style="display: block;">
+            <div class="input-wrap re">
+              <img src="../images/login/login_user_logo.png" alt="">
+              <input class="user" type="text" placeholder="输入用户名">
             </div>
-            <div class="login-pass">
+            <div class="input-wrap re">
               <img src="../images/login/login_pass_logo.png" alt="">
-                <input type="text" placeholder="输入密码">
+              <input type="password" placeholder="输入密码">
             </div>
-            <div class="login-login">
-              <button class="login-btn">登录</button>
-            </div>
-            <div class="login-test">会员注册</div>
-            <div class="login-compute">copyright©云润大数据服务有限公司</div>
-            <div class="login-logo-img"><img src="../images/login/logo.png" alt=""></div>
+          
+          
+          <div class="login-login">
+            <button class="login-btn">登录</button>
           </div>
+          <div class="login-test" id="js_go_zc">会员注册</div>
+        </div>
+
+        <div class="login login-wrap">
+          <div class="input-wrap re">
+            <span>用户名：</span>
+            <input class="user" type="text" placeholder="请输入">
+          </div>
+          <div class="input-wrap re">
+            <span>密码：</span>
+            <input type="text" placeholder="请输入">
+          </div>
+          <div class="input-wrap re">
+            <span>确认密码：</span>
+            <input type="text" placeholder="请输入">
+          </div>
+          <div class="input-wrap re">
+            <span>手机：</span>
+            <input type="text" placeholder="请输入">
+          </div>
+          <div class="input-wrap re">
+            <span>姓名：</span>
+            <input type="text" placeholder="请输入">
+          </div>
+          <div class="input-wrap re">
+            <span>所属乡镇：</span>
+            <input type="text" placeholder="请输入">
+          </div>
+          <div class="login-login">
+            <button class="login-btn">注册</button>
+          </div>
+          <div class="login-test" id="js_go_dl">会员登录</div>
         </div>
       </div>
+      <div class="login-compute">copyright©云润大数据服务有限公司</div>
+      <div class="login-logo-img"><img src="../images/login/logo.png" alt=""></div>
+    </div>
   </div>
-    <%- include('../templates/foot') %>
+  <%- include('../templates/foot') %>
 </body>
+<script>
+  $('#js_go_zc').click(function() {
+    $('.login-wrap').hide();
+    $('.login-wrap').eq(1).show();
+  });
+
+  $('#js_go_dl').click(function() {
+    $('.login-wrap').hide();
+    $('.login-wrap').eq(0).show();
+  });
+</script>
 </html>
